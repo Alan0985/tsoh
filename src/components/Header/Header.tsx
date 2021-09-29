@@ -4,7 +4,7 @@ import { StyledFlex } from '../Utils/Flex.style';
 import { StyledButton } from '../Button/Button.style';
 import { FaBitcoin } from 'react-icons/fa';
 
-export const Header = () => (
+export const Header: React.FC = () => (
   <StyledHeader>
     <StyledContainer>
       <StyledNav>

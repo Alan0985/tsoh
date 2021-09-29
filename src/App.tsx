@@ -1,6 +1,11 @@
 import { ThemeProvider } from 'styled-components';
+import { StyledContainer } from './components/Utils/Container.style';
 import { Header } from './components/Header/Header';
+import { Card } from './components/Card/Card';
+import { Footer } from './components/Footer/Footer';
+
 import { GlobalStyles } from './Global.style';
+import items from './items';
 
 const theme = {
   colors: {
@@ -17,6 +22,12 @@ const App: React.FC = () => {
       <>
         <GlobalStyles />
         <Header />
+        <StyledContainer>
+          {items.map((item, index) => (
+            <Card key={index} item={item} />
+          ))}
+        </StyledContainer>
+        <Footer />
       </>
     </ThemeProvider>
   );
