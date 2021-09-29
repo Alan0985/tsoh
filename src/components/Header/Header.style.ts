@@ -30,11 +30,12 @@ export const StyledNav = styled.nav`
 `;
 
 export const Image = styled.img`
-  width: 375px;
-  margin-left: 40px;
+  width: 40vw;
+  margin-left: 20px;
   border-radius: 20px;
 
   @media (max-width: ${({ theme }: Props) => theme.mobile}) {
+    width: 80vw;
     margin: 40px 0 30px;
   }
 `;

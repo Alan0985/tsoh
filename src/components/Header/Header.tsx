@@ -11,10 +11,10 @@ export const Header = () => (
         <div>
           <FaBitcoin />
           <span>Bitcoin</span>
-          <StyledButton bg='#fff' color='#333'>
-            Give It A Go
-          </StyledButton>
         </div>
+        <StyledButton bg='#fff' color='#333'>
+          Give It A Go
+        </StyledButton>
       </StyledNav>
 
       <StyledFlex>
@@ -30,7 +30,7 @@ export const Header = () => (
           </StyledButton>
         </div>
 
-        <Image src='./images/bitcoin2.png' />
+        <Image src='./images/office1.jfif' />
       </StyledFlex>
     </StyledContainer>
   </StyledHeader>
