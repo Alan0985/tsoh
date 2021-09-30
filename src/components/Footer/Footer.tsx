@@ -10,7 +10,7 @@ export const Footer: React.FC = () => (
         <ul>
           <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
           <li>021-543-123-4567</li>
-          <li>example@bitcoin.com</li>
+          <li>example@officehash.com</li>
         </ul>
 
         <ul>
@@ -27,7 +27,7 @@ export const Footer: React.FC = () => (
 
         <SocialIcons />
       </StyledFlex>
-      <p>&copy;2021 Bitcoin. All Rights Reserved.</p>
+      <p>&copy;2021 Officehash. All Rights Reserved.</p>
     </StyledContainer>
   </StyledFooter>
 );

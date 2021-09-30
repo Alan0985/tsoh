@@ -2,19 +2,16 @@ import { StyledHeader, StyledNav, Image } from './Header.style';
 import { StyledContainer } from '../Utils/Container.style';
 import { StyledFlex } from '../Utils/Flex.style';
 import { StyledButton } from '../Button/Button.style';
-import { FaBitcoin } from 'react-icons/fa';
+import { FaSlackHash } from 'react-icons/fa';
 
 export const Header: React.FC = () => (
   <StyledHeader>
     <StyledContainer>
       <StyledNav>
         <div>
-          <FaBitcoin />
-          <span>Bitcoin</span>
+          <FaSlackHash />
+          <span>OfficeHash</span>
         </div>
-        {/* <StyledButton bg='#fff' color='#333'>
-          Give It A Go
-        </StyledButton> */}
 
         <ul>
           <li>
@@ -34,14 +31,15 @@ export const Header: React.FC = () => (
 
       <StyledFlex>
         <div>
-          <h1>Future. Revolutionary. Decentralized. Magic. Epic.</h1>
+          <h1>OfficeHash makes everything in office easy. </h1>
           <p>
-            Bitcoin is a decentralized digital currency, without a central bank
-            or single administrator, that can be sent from user to user on the
-            peer-to-peer bitcoin network without the need for intermediaries.
+            OfficeHash makes everything easy. Lorem ipsum, dolor sit amet
+            consectetur adipisicing elit. Vel, recusandae quod id error est quia
+            magnam culpa quam provident dolores ut architecto repudiandae
+            reiciendis animi cum ea dicta excepturi eum!
           </p>
-          <StyledButton bg='#000' color='#fff'>
-            Get Started Here
+          <StyledButton bg='#fff' color='#7fd4c2'>
+            Free Trial
           </StyledButton>
         </div>
 

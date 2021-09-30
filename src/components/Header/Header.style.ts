@@ -7,6 +7,7 @@ interface Props {
 export const StyledHeader = styled.header`
   background-color: ${({ theme }: Props) => theme.colors.header};
   padding: 40px 0;
+  color: #fff;
 `;
 
 export const StyledNav = styled.nav`
@@ -18,16 +19,24 @@ export const StyledNav = styled.nav`
   ul {
     display: flex;
     align-items: center;
-    height: 100%;
   }
 
   li {
-    border: 1px solid #fff;
-    padding: 0 10px;
+    padding: 0 20px;
+  }
+
+  a {
+    text-transform: uppercase;
+    color: #fff;
+  }
+
+  a:hover {
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
   }
 
   svg {
-    font-size: 65px;
+    font-size: 70px;
   }
 
   span {

@@ -28,14 +28,14 @@ li{
 }
 
 p{
-    opacity: 0.6;
+    opacity: 0.9;
     line-height: 1.5;
 }
 
 a{
+    display: block;
     text-decoration: none;
     cursor: pointer;
-    text-transform: uppercase;
 }
 
 img{

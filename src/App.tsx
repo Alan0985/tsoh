@@ -9,9 +9,9 @@ import items from './items';
 
 const theme = {
   colors: {
-    header: '#AADCD1',
+    header: '#7fd4c2',
     body: '#fff',
-    footer: '#f7d55b',
+    footer: '#b3dbd3',
   },
   mobile: '768px',
 };
