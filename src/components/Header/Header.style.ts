@@ -15,6 +15,17 @@ export const StyledNav = styled.nav`
   justify-content: space-between;
   margin-bottom: 40px;
 
+  ul {
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+
+  li {
+    border: 1px solid #fff;
+    padding: 0 10px;
+  }
+
   svg {
     font-size: 65px;
   }

@@ -12,9 +12,24 @@ export const Header: React.FC = () => (
           <FaBitcoin />
           <span>Bitcoin</span>
         </div>
-        <StyledButton bg='#fff' color='#333'>
+        {/* <StyledButton bg='#fff' color='#333'>
           Give It A Go
-        </StyledButton>
+        </StyledButton> */}
+
+        <ul>
+          <li>
+            <a href='#'>About</a>
+          </li>
+          <li>
+            <a href='#'>Projects</a>
+          </li>
+          <li>
+            <a href='#'>Teams</a>
+          </li>
+          <li>
+            <a href='#'>Contact</a>
+          </li>
+        </ul>
       </StyledNav>
 
       <StyledFlex>
